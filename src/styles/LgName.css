@@ -1,0 +1,51 @@
+#largeName {
+    font-size: 20em;
+    text-align: right;
+    margin-right: 18px;
+    margin-top: 20vh;
+  }
+  
+  .largeText {
+  display: block;
+  position: relative;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+  
+  /* ANIMATION: */
+  
+  .animate {
+      animation: animate 1.2s cubic-bezier(.2,.6,.2,1);
+      animation-fill-mode: backwards;
+  }
+  
+  .animate-inverse {
+      animation: animate-inverse 1.2s cubic-bezier(.2,.6,.2,1);
+      animation-fill-mode: backwards;
+  }
+  
+  .shortDelay {
+      animation-delay: 0.2s;
+  }
+  
+  .longDelay {
+      animation-delay: 0.5s;
+  }
+  
+  @keyframes animate {
+      0% {
+          transform: translateY(115%);
+      }
+      100% {
+          transform: translateY(0%);
+      }
+  }
+  
+  @keyframes animate-inverse {
+      0% {
+          transform: translateY(-110%);
+      }
+      100% {
+          transform: translateY(0%);
+      }
+  }

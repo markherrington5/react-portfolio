@@ -2,10 +2,18 @@ import React from "react";
 import "../styles/LgName.css";
 
 const LgName = () => (
-  <div>
-    <h2 id="LgFirst">Mark</h2>
-    <h2 id="LgSecond">Herrington</h2>
-  </div>
+    <h1 id="largeName">
+    <div class="largeText">
+      <div class="animate shortDelay">
+        Mark
+      </div>
+    </div>
+    <div class="largeText">
+      <div class="animate-inverse longDelay">
+        Herrington
+      </div>
+    </div>
+  </h1>
 );
 
 export default LgName;
