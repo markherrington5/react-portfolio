@@ -1,7 +1,11 @@
 import React from "react";
+import "../styles/LgName.css";
 
-const lgName = () => (
-    <div><h2>Mark Herrington</h2></div>
+const LgName = () => (
+  <div>
+    <h2 id="LgFirst">Mark</h2>
+    <h2 id="LgSecond">Herrington</h2>
+  </div>
 );
 
-export default lgName;
+export default LgName;

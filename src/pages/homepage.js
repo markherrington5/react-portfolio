@@ -1,9 +1,9 @@
 import React from "react";
-import lgName from '../components/lgName';
+import LgName from '../components/LgName.js';
 
 const homepage = () => (
     <div>
-    <lgName />
+    <LgName />
     <h2>Home</h2>
     </div>
 );
