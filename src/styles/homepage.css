@@ -12,3 +12,10 @@ p {
     margin-left: 40%;
     margin-right: 20%;
 }
+
+.contact {
+    font-size: 7em;
+    line-height: 100%;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+}

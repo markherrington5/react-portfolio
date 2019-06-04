@@ -1,6 +1,7 @@
 import React from "react";
 import LgName from "../components/LgName.js";
 import "../styles/homepage.css";
+import '../images/githubLogo.svg';
 
 const homepage = () => (
   <div>
@@ -36,6 +37,24 @@ const homepage = () => (
       good website) is innovative, aesthetic, understandable, unobtrusive,
       honest, long-lasting, and thorough down to the last detail.
     </p>
+    <h4 className='contact'>Contact</h4>
+    <h4 className='contact'>Me</h4>
+    <p>markherrington5@gmail.com</p>
+    <div class="socialLink">
+          <a href="https://github.com/markherrington5" target="_blank" rel="noopener noreferrer">
+          <p>GitHub Link</p>
+          </a>
+        </div>
+        <div class="socialLink">
+          <a href="https://www.linkedin.com/in/markherrington18/" target="_blank" rel="noopener noreferrer">
+          <p>LinkedIn</p>
+          </a>
+        </div>
+        <div class="socialLink">
+          <a href="https://www.instagram.com/mtherrington/" target="_blank" rel="noopener noreferrer">
+            <p>Instagram</p>
+          </a>
+        </div>
   </div>
 );
 
