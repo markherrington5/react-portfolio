@@ -16,19 +16,9 @@ const homepage = () => (
       Web development is about the marriage of new technology and proven design.
     </p>
     <p className="about">
-      My interest in the former began when I was quite young. While this
-      enthusiasm was not channeled into coding until recently, I have always had
-      an affinity for computers and technology. When I was in elementary school,
-      I began playing games, and also began to break (and subsequently fix) the
-      family computer. In high school, I built my first computer of my own, and
-      have continued to do so ever since. My formal introduction to coding was
-      at Rhodes College, where I took a course in Python in my third year.
-    </p>
-    <p className="about">
-      My formal training in web development has been in the spring 2019 cohort
-      at Georgia Tech's professional education program. The course has covered
-      HTML, CSS, JavaScript, jQuery, Bootstrap, AJAX, Node.js, mySQL and
-      Sequelize, MongoDB and Mongoose, and React.js.
+      Aside from a lone Python class durig my undergraduate studies at Rhodes
+      College, my formal training in web development has been in the spring 2019
+      cohort at Georgia Tech's professional education program.
     </p>
     <p className="about">
       My passion for design has continued to develop. Because my father is an
