@@ -1,0 +1,15 @@
+p {
+    font-weight: bold;
+}
+
+#intro {
+    width: 40%;
+    font-size: 2.5em;
+}
+
+.about {
+    font-size: 1.5em;
+    text-align: right;
+    margin-left: 55%;
+    margin-right: 4px;
+}
