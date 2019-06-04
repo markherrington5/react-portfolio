@@ -1,13 +1,13 @@
 #largeName {
     font-size: 20em;
     text-align: right;
-    margin-right: 18px;
-    margin-top: 20vh;
+    margin-right: 5px;
+    margin-top: 0px;
   }
   
-  .largeText {
-  display: block;
-  position: relative;
+.largeText {
+    display: block;
+    position: relative;
     overflow: hidden;
     margin-bottom: 0px;
   }
