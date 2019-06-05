@@ -15,19 +15,21 @@ p {
 
 .contact {
     font-size: 7em;
-    line-height: 100%;
-    margin-block-end: 10px;
-    margin-block-start: 10px;
+    /* line-height: 100%; */
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-left: 1%;
 }
 
 .linkImg {
-    margin: 1px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
     float: left;
-    width: 4%;
+    width: 3%;
 
 }
 
 #email {
+    margin: 0px 0px 0px 1%;
     font-size: 2em;
     clear: both;
 }

@@ -40,20 +40,7 @@ const homepage = () => (
       honest, long-lasting, and thorough down to the last detail.
     </p>
     <h4 className="contact">Contact Me</h4>
-    {/* <h4 className='contact'>Me</h4> */}
-    <div>
-      <a
-        href="https://github.com/markherrington5"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          className="linkImg"
-          src={githubLogo}
-          alt="githubLogo"
-        />
-      </a>
-    </div>
+    <p id="email">email: markherrington5@gmail.com</p>
     <div>
       <a
         href="https://www.linkedin.com/in/markherrington18/"
@@ -80,7 +67,19 @@ const homepage = () => (
         />
       </a>
     </div>
-    <p id="email">email: markherrington5@gmail.com</p>
+    <div>
+      <a
+        href="https://github.com/markherrington5"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="linkImg"
+          src={githubLogo}
+          alt="githubLogo"
+        />
+      </a>
+    </div>
   </div>
 );
 
