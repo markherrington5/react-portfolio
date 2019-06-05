@@ -1,6 +1,7 @@
 import React from "react";
 import LgName from "../components/LgName.js";
 import "../styles/homepage.css";
+import portrait from '../images/portrait.jpg'
 import githubLogo from "../images/githubLogo.svg";
 import linkedinLogo from "../images/linkedinLogo.svg";
 import instagramLogo from "../images/instaLogo.svg";
@@ -15,22 +16,22 @@ const homepage = () => (
       graduate of the Georgia Tech Full Stack Web Development boot camp in
       Atlanta.
     </p>
+    <img id='portrait' src={portrait} alt='portrait'></img>
     <p className="about">
       Web development is about the marriage of new technology and proven design.
     </p>
     <p className="about">
-      Aside from a lone Python class durig my undergraduate studies at Rhodes
+      Aside from a lone Python class during my undergraduate studies at Rhodes
       College, my formal training in web development has been in the spring 2019
       cohort at Georgia Tech's professional education program.
     </p>
     <p className="about">
-      My passion for design has continued to develop. Because my father is an
-      architect, I grew up somewhat familiar with that field. It was not until
-      fall 2016, though, that this familiarity became fascination. That year, I
-      participated in the Western track of the yearly Rhodes-Sewanee European
-      Studies program. Although this trip contributed to my progress in History
-      and Religious Studies, what I most enjoyed were the classes in Art History
-      and the program's dean's architectural tours.
+      Though I grew up with some amount of familiarity with art and design, it
+      was not until fall 2016 that this familiarity grew into fascination. That
+      year, I participated in the Western track of the yearly Rhodes-Sewanee
+      European Studies program. Although this trip contributed to my progress in
+      History and Religious Studies, what I most enjoyed were the classes in Art
+      History and the program's dean's architectural tours.
     </p>
     <p className="about">
       Web design is merely another step in this shared timeline. The history of
@@ -39,7 +40,7 @@ const homepage = () => (
       good website) is innovative, aesthetic, understandable, unobtrusive,
       honest, long-lasting, and thorough down to the last detail.
     </p>
-    <h4 className="contact">Contact Me</h4>
+    <h2 className="contact">Contact Me</h2>
     <p id="email">email: markherrington5@gmail.com</p>
     <div>
       <a
@@ -47,11 +48,7 @@ const homepage = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          className="linkImg"
-          src={linkedinLogo}
-          alt="linkedinLogo"
-        />
+        <img className="linkImg" src={linkedinLogo} alt="linkedinLogo" />
       </a>
     </div>
     <div>
@@ -60,11 +57,7 @@ const homepage = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          className="linkImg"
-          src={instagramLogo}
-          alt="instagramLogo"
-        />
+        <img className="linkImg" src={instagramLogo} alt="instagramLogo" />
       </a>
     </div>
     <div>
@@ -73,11 +66,7 @@ const homepage = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
-          className="linkImg"
-          src={githubLogo}
-          alt="githubLogo"
-        />
+        <img className="linkImg" src={githubLogo} alt="githubLogo" />
       </a>
     </div>
   </div>
