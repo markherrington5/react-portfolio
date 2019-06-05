@@ -19,3 +19,15 @@ p {
     margin-block-end: 10px;
     margin-block-start: 10px;
 }
+
+.linkImg {
+    margin: 1px 0px 0px 20px;
+    float: left;
+    width: 4%;
+
+}
+
+#email {
+    font-size: 2em;
+    clear: both;
+}
