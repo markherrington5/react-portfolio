@@ -10,17 +10,15 @@ const homepage = () => (
   <div>
     <LgName />
     <div className="container">
-      <div id="block1">
-        <p id="greeting">Hi! I'm Mark Herrington.</p>
-        <p id="intro">
-          I'm a new web developer excited about entering the world of coding. I
-          have a BA from Rhodes College in Memphis, where I majored in History
-          and minored in Religious Studies. I am a recent graduate of the
-          Georgia Tech Full Stack Web Development boot camp in Atlanta.
-        </p>
-        <img id="portrait" src={portrait} alt="portrait" />
-      </div>
-      <p className="about">
+      <p id="greeting">Hi! I'm Mark Herrington.</p>
+      <p id="intro">
+        I'm a new web developer excited about entering the world of coding. I
+        have a BA from Rhodes College in Memphis, where I majored in History and
+        minored in Religious Studies. I am a recent graduate of the Georgia Tech
+        Full Stack Web Development boot camp in Atlanta.
+      </p>
+      <img id="portrait" src={portrait} alt="portrait" />
+      <p className="about" id='about1'>
         Web development is about the marriage of new technology and proven
         design.
       </p>

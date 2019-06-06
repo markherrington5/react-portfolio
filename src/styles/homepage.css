@@ -14,11 +14,8 @@ h2 {
     margin: 0px auto;
 }
 
-.block1 {
-    margin-bottom: 25px;
-}
-
 #greeting {
+    float: left;
     font-weight: 700;
     font-size: 2em;
 }
@@ -31,7 +28,8 @@ h2 {
 }
 
 #portrait {
-    width: 35%;
+    width: 34%;
+    margin-left: 1%;
 }
 
 .about {
@@ -39,6 +37,10 @@ h2 {
     font-size: 1.5em;
     margin-top: 20px;
     margin-left: 35%;
+}
+
+#about1 {
+    margin-top: 100px;
 }
 
 .contact {
