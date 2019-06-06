@@ -24,6 +24,15 @@ const homepage = () => (
         Web development is about the marriage of new technology and proven
         design.
       </p>
+      <p id='f100'>100</p>
+      <p id='f200'>200</p>
+      <p id='f300'>300</p>
+      <p id='f400'>400</p>
+      <p id='f500'>500</p>
+      <p id='f600'>600</p>
+      <p id='f700'>700</p>
+      <p id='f800'>800</p>
+      <p id='f900'>900</p>
       <p className="about">
         Aside from a lone Python class during my undergraduate studies at Rhodes
         College, my formal training in web development has been in the spring
