@@ -18,7 +18,8 @@ const homepage = () => (
         Full Stack Web Development boot camp in Atlanta.
       </p>
       <img id="portrait" src={portrait} alt="portrait" />
-      <p className="about" id='about1'>
+      <img id="photo1" src={portrait} alt="photo1" />
+      <p className="about">
         Web development is about the marriage of new technology and proven
         design.
       </p>
