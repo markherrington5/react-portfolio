@@ -1,5 +1,5 @@
 import React from "react";
-import LgName from "../components/LgName.js";
+import LgName from "./LgName";
 import "../styles/homepage.css";
 import portrait from "../images/portrait.jpg";
 import githubLogo from "../images/githubLogo.svg";
