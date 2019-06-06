@@ -1,0 +1,21 @@
+.linkBtn {
+    margin-top: 20px;
+    background-color:white;
+    border: 1px solid black;
+    color : black;
+	display: border-box;
+	cursor:pointer;
+	font-size: 1em;
+	padding:6px 12px;
+    text-decoration:none;
+}
+
+.linkBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.linkBtn:active {
+	position:relative;
+    top:3px;
+}
