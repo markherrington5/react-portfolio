@@ -45,7 +45,7 @@ const homepage = () => (
       </p>
     </div>
     <h2 className="contact">Contact Me</h2>
-    <p id="email">email: markherrington5@gmail.com</p>
+    <p id="email">cemail: markherrington5@gmail.com</p>
     <div>
       <a
         href="https://www.linkedin.com/in/markherrington18/"
