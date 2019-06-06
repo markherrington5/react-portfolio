@@ -10,13 +10,13 @@ const homepage = () => (
   <div>
     <LgName />
     <div className="container">
-      <div id='block1'>
+      <div id="block1">
+        <p id="greeting">Hi! I'm Mark Herrington.</p>
         <p id="intro">
-          Hi! I'm Mark Herrington, a new web developer excited about entering
-          the world of coding. I have a BA from Rhodes College in Memphis, where
-          I majored in History and minored in Religious Studies. I am a recent
-          graduate of the Georgia Tech Full Stack Web Development boot camp in
-          Atlanta.
+          I am a new web developer excited about entering the world of coding. I
+          have a BA from Rhodes College in Memphis, where I majored in History
+          and minored in Religious Studies. I am a recent graduate of the
+          Georgia Tech Full Stack Web Development boot camp in Atlanta.
         </p>
         <img id="portrait" src={portrait} alt="portrait" />
       </div>
@@ -24,15 +24,6 @@ const homepage = () => (
         Web development is about the marriage of new technology and proven
         design.
       </p>
-      <p id='f100'>100</p>
-      <p id='f200'>200</p>
-      <p id='f300'>300</p>
-      <p id='f400'>400</p>
-      <p id='f500'>500</p>
-      <p id='f600'>600</p>
-      <p id='f700'>700</p>
-      <p id='f800'>800</p>
-      <p id='f900'>900</p>
       <p className="about">
         Aside from a lone Python class during my undergraduate studies at Rhodes
         College, my formal training in web development has been in the spring
