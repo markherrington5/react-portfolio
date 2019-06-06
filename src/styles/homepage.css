@@ -38,9 +38,22 @@ h2 {
     margin-left: 0px;
 }
 
+#paragraph2 {
+    float: left;
+    margin-top: 100px;
+}
+
+#LinkBtns {
+    float: left;
+    margin-top: 100px;
+    width: 35%;
+}
+
 .about {
+    float: right;
     font-size: 1.5em;
     margin-top: 20px;
+    width: 65%;
     margin-left: 35%;
 }
 
