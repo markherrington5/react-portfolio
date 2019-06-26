@@ -1,4 +1,7 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
 import LgName from "../components/LgName.js";
 import LinkBtns from "../components/LinkBtns.js";
 import "../styles/homepage.css";
@@ -10,16 +13,22 @@ import instagramLogo from "../images/instaLogo.svg";
 const homepage = () => (
   <div>
     <LgName />
-    <div className="container">
-      <p id="greeting">Hi! I'm Mark Herrington.</p>
-      <p id="intro">
-        I'm a new web developer excited about entering the world of coding. I
-        have a BA from Rhodes College in Memphis, where I majored in History and
-        minored in Religious Studies. I am a recent graduate of the Georgia Tech
-        Full Stack Web Development boot camp in Atlanta.
-      </p>
-      <img id="portrait" src={portrait} alt="portrait" />
-      <div id='pararaph2'>
+    <Container>
+      <Row>
+        <Col xs={12} md={7}>
+          <p id="greeting">Hi! I'm Mark Herrington.</p>
+          <p id="intro">
+            I'm a new web developer excited about entering the world of coding.
+            I have a BA from Rhodes College in Memphis, where I majored in
+            History and minored in Religious Studies. I am a recent graduate of
+            the Georgia Tech Full Stack Web Development boot camp in Atlanta.
+          </p>
+        </Col>
+        <Col sm={5}>
+          <img id="portrait" src={portrait} alt="portrait" />
+        </Col>
+      </Row>
+      <div id="pararaph2">
         <div id="LinkBtns">
           <LinkBtns />
         </div>
@@ -50,7 +59,7 @@ const homepage = () => (
           detail.
         </p>
       </div>
-    </div>
+    </Container>
     <h2 className="contact">Contact Me</h2>
     <p id="email">email: markherrington5@gmail.com</p>
     <div>

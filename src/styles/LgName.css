@@ -1,8 +1,10 @@
 #largeName {
+    color: #000000;
     font-size: 17vw;
     text-align: right;
     margin-right: 1px;
     margin-top: 0px;
+    line-height: 125%;
     font-weight: 700;
   }
   
