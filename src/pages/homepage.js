@@ -61,7 +61,7 @@ const homepage = () => (
             to the last detail.
           </p>
         </Col>
-      </Row>}
+      </Row>
     </Container>
     <h2 className="contact">Contact Me</h2>
     <p id="email">email: markherrington5@gmail.com</p>
