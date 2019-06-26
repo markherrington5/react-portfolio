@@ -28,37 +28,40 @@ const homepage = () => (
           <img id="portrait" src={portrait} alt="portrait" />
         </Col>
       </Row>
-      <div id="pararaph2">
-        <div id="LinkBtns">
+      <Row id='row2'>
+        <Col xs={12} md={4}>
           <LinkBtns />
-        </div>
-        <p className="about">
-          Web development is about the marriage of new technology and proven
-          design.
-        </p>
-        <p className="about">
-          Aside from a lone Python class during my undergraduate studies at
-          Rhodes College, my formal training in web development has been in the
-          spring 2019 cohort at Georgia Tech's professional education program.
-        </p>
-        <p className="about">
-          Though I grew up with some amount of familiarity with art and design,
-          it was not until fall 2016 that this familiarity grew into
-          fascination. That year, I participated in the Western track of the
-          yearly Rhodes-Sewanee European Studies program. Although this trip
-          contributed to my progress in History and Religious Studies, what I
-          most enjoyed were the classes in Art History and the program's dean's
-          architectural tours.
-        </p>
-        <p className="about">
-          Web design is merely another step in this shared timeline. The history
-          of art and architecture is also the history of geometry, space,
-          typography, and color. According to German designer Dieter Rams, good
-          design (and a good website) is innovative, aesthetic, understandable,
-          unobtrusive, honest, long-lasting, and thorough down to the last
-          detail.
-        </p>
-      </div>
+        </Col>
+        <Col xs={12} md={8}>
+          <p className="about">
+            Web development is about the marriage of new technology and proven
+            design.
+          </p>
+          <p className="about">
+            Aside from a lone Python class during my undergraduate studies at
+            Rhodes College, my formal training in web development has been in
+            the spring 2019 cohort at Georgia Tech's professional education
+            program.
+          </p>
+          <p className="about">
+            Though I grew up with some amount of familiarity with art and
+            design, it was not until fall 2016 that this familiarity grew into
+            fascination. That year, I participated in the Western track of the
+            yearly Rhodes-Sewanee European Studies program. Although this trip
+            contributed to my progress in History and Religious Studies, what I
+            most enjoyed were the classes in Art History and the program's
+            dean's architectural tours.
+          </p>
+          <p className="about">
+            Web design is merely another step in this shared timeline. The
+            history of art and architecture is also the history of geometry,
+            space, typography, and color. According to German designer Dieter
+            Rams, good design (and a good website) is innovative, aesthetic,
+            understandable, unobtrusive, honest, long-lasting, and thorough down
+            to the last detail.
+          </p>
+        </Col>
+      </Row>}
     </Container>
     <h2 className="contact">Contact Me</h2>
     <p id="email">email: markherrington5@gmail.com</p>
