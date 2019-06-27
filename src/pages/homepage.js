@@ -28,7 +28,7 @@ const homepage = () => (
           <img id="portrait" src={portrait} alt="portrait" />
         </Col>
       </Row>
-      <Row id='row2'>
+      <Row id="row2">
         <Col xs={12} md={4}>
           <LinkBtns />
         </Col>
@@ -63,34 +63,44 @@ const homepage = () => (
         </Col>
       </Row>
     </Container>
-    <h2 className="contact">Contact Me</h2>
-    <p id="email">email: markherrington5@gmail.com</p>
-    <div>
-      <a
-        href="https://www.linkedin.com/in/markherrington18/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img className="linkImg" src={linkedinLogo} alt="linkedinLogo" />
-      </a>
-    </div>
-    <div>
-      <a
-        href="https://www.instagram.com/mtherrington/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img className="linkImg" src={instagramLogo} alt="instagramLogo" />
-      </a>
-    </div>
-    <div>
-      <a
-        href="https://github.com/markherrington5"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img className="linkImg" src={githubLogo} alt="githubLogo" />
-      </a>
+    <div id="contactInfo">
+      <Row>
+        <Col md={6} xs={12}>
+          <h2 className="contact">Contact Me</h2>
+          <p id="email">email: markherrington5@gmail.com</p>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/markherrington18/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="linkImg" src={linkedinLogo} alt="linkedinLogo" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.instagram.com/mtherrington/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="linkImg"
+                src={instagramLogo}
+                alt="instagramLogo"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/markherrington5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="linkImg" src={githubLogo} alt="githubLogo" />
+            </a>
+          </div>
+        </Col>
+      </Row>
     </div>
   </div>
 );

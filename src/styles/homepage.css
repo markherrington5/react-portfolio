@@ -29,7 +29,6 @@ h2 {
 
 #portrait {
   width: 100%;
-  margin-left: 1%;
 }
 
 #photo1 {
@@ -48,13 +47,18 @@ h2 {
   margin-bottom: 20px;
 }
 
+#contactInfo {
+  width: 99%;
+  margin-right: auto;
+  background: cadetblue;
+}
+
 .contact {
   clear: both;
-  font-size: 7em;
+  font-size: 5.5vw;
   line-height: 75%;
   margin-block-end: 0px;
   margin-block-start: 0px;
-  margin-left: 1%;
   margin-top: 100px;
 }
 
