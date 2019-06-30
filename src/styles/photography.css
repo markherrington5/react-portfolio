@@ -1,7 +1,30 @@
 .container {
-    margin: 0px auto;
+  margin: 0px auto;
 }
 
-#photo1 {
-    width: 100%;
+.photoblock {
+  margin: 0px auto 100px auto;
+}
+
+.landscape {
+  width: 100%;
+}
+
+.portrait {
+    width: 55%;
+}
+
+.square {
+    width: 75%;
+}
+
+.photo {
+  width: 100%;
+}
+
+.imgDesc {
+  color: darkslategray;
+  text-align: right;
+  font-weight: 400;
+  font-style: italic;
 }
