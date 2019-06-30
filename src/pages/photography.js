@@ -11,6 +11,7 @@ import photo3 from "../images/photography/photo3.jpg";
 import photo4 from "../images/photography/photo4.jpg";
 import photo5 from "../images/photography/photo5.jpg";
 import photo6 from "../images/photography/photo6.jpg";
+import photo7 from "../images/photography/photo7.jpg"
 
 const photography = () => (
   <div>
@@ -78,6 +79,16 @@ const photography = () => (
             <p className="imgDesc">Memphis, TN, USA</p>
             <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
             <p className="imgDesc">August 2017</p>
+          </div>
+          <div className="photoblock landscape">
+            <img
+              src={photo7}
+              alt="201803_Laumeier_05 M645, Portra 160"
+              className="photo"
+            />
+            <p className="imgDesc">St. Louis, MO, USA</p>
+            <p className="imgDesc">Mamiya M645 Super / Kodak Portra 160</p>
+            <p className="imgDesc">March 2018</p>
           </div>
         </Col>
       </Row>
