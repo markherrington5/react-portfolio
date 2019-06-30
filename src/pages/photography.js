@@ -11,7 +11,8 @@ import photo3 from "../images/photography/photo3.jpg";
 import photo4 from "../images/photography/photo4.jpg";
 import photo5 from "../images/photography/photo5.jpg";
 import photo6 from "../images/photography/photo6.jpg";
-import photo7 from "../images/photography/photo7.jpg"
+import photo7 from "../images/photography/photo7.jpg";
+import photo8 from "../images/photography/photo8.jpg";
 
 const photography = () => (
   <div>
@@ -89,6 +90,16 @@ const photography = () => (
             <p className="imgDesc">St. Louis, MO, USA</p>
             <p className="imgDesc">Mamiya M645 Super / Kodak Portra 160</p>
             <p className="imgDesc">March 2018</p>
+          </div>
+          <div className="photoblock portrait">
+            <img
+              src={photo8}
+              alt="201609_Norway_01 Zorki, Vista 200"
+              className="photo"
+            />
+            <p className="imgDesc">Oslo, Norway</p>
+            <p className="imgDesc">Zorki 4K / Agfa Vista 200</p>
+            <p className="imgDesc">September 2016</p>
           </div>
         </Col>
       </Row>
