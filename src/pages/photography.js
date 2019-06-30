@@ -17,19 +17,19 @@ const photography = () => (
         <Col>
           <PhotoHeader />
           <div className="photoblock landscape">
-            <img src={photo} alt="photo1" className='photo'/>
+            <img src={photo} alt="201610_Rome_01 AV-1, Vista 200" className='photo'/>
             <p className='imgDesc'>Rome, Italy</p>
             <p className='imgDesc'>Canon AV-1 / Agfa Vista 200</p>
             <p className='imgDesc'>October 2016</p>
           </div>
           <div className="photoblock square">
-            <img src={photo2} alt="photo2" className="photo" />
+            <img src={photo2} alt="201708_Crosstown_01 124G, HP5" className="photo" />
             <p className='imgDesc'>Memphis, TN, USA</p>
             <p className='imgDesc'>Yashica Mat-124G / Ilford HP5</p>
-            <p className='imgDesc'>September 2017</p>
+            <p className='imgDesc'>August 2017</p>
           </div>
           <div className="photoblock portrait">
-            <img src={photo3} alt="photo3" className="photo" />
+            <img src={photo3} alt="201802_Beale_19 35RC, T-Max 400" className="photo" />
             <p className='imgDesc'>Memphis, TN, USA</p>
             <p className='imgDesc'>Olympus 35RC / Kodak T-Max 400</p>
             <p className='imgDesc'>February 2018</p>
