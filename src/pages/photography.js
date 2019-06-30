@@ -9,6 +9,7 @@ import photo from "../images/photography/photo1.jpg";
 import photo2 from "../images/photography/photo2.jpg";
 import photo3 from "../images/photography/photo3.jpg";
 import photo4 from "../images/photography/photo4.jpg";
+import photo5 from "../images/photography/photo5.jpg";
 
 const photography = () => (
   <div>
@@ -50,12 +51,22 @@ const photography = () => (
           <div className="photoblock landscape">
             <img
               src={photo4}
-              alt="201803_StLouisZoo_01 M645, Portra 160.jpg"
+              alt="201803_StLouisZoo_01 M645, Portra 160"
               className="photo"
             />
             <p className="imgDesc">St. Louis, MO, USA</p>
             <p className="imgDesc">Mamiya M645 Super / Kodak Portra 160</p>
             <p className="imgDesc">March 2018</p>
+          </div>
+          <div className="photoblock landscape">
+            <img
+              src={photo5}
+              alt="201610_SanVigilio_01 AV-1, Vista 200"
+              className="photo"
+            />
+            <p className="imgDesc">San Vigilio, Italy</p>
+            <p className="imgDesc">Canon AV-1 / Agfa Vista 200</p>
+            <p className="imgDesc">October 2016</p>
           </div>
         </Col>
       </Row>
