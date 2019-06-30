@@ -10,6 +10,7 @@ import photo2 from "../images/photography/photo2.jpg";
 import photo3 from "../images/photography/photo3.jpg";
 import photo4 from "../images/photography/photo4.jpg";
 import photo5 from "../images/photography/photo5.jpg";
+import photo6 from "../images/photography/photo6.jpg";
 
 const photography = () => (
   <div>
@@ -67,6 +68,16 @@ const photography = () => (
             <p className="imgDesc">San Vigilio, Italy</p>
             <p className="imgDesc">Canon AV-1 / Agfa Vista 200</p>
             <p className="imgDesc">October 2016</p>
+          </div>
+          <div className="photoblock square">
+            <img
+              src={photo6}
+              alt="201708_Crosstown_03 124G, HP5"
+              className="photo"
+            />
+            <p className="imgDesc">Memphis, TN, USA</p>
+            <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
+            <p className="imgDesc">August 2017</p>
           </div>
         </Col>
       </Row>
