@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
-import PhotoHeader from "../components/photoHeader.js";
+import SubHeader from "../components/subHeader.js";
 import Photoblock from "../components/photoblock.js";
 import "../styles/photography.css";
 import photo1 from "../images/photography/photo1.jpg";
@@ -22,7 +22,7 @@ const photography = () => (
     <Container>
       <Row>
         <Col>
-          <PhotoHeader />
+          <SubHeader title={"Photography"}/>
           <Row className="photoblock justify-content-md-center">
             <Col xs={12} md={12}>
               <Photoblock
