@@ -12,6 +12,7 @@
     text-decoration: none;
     margin: 10px auto 10px 10px;
     float: left;
+    position: fixed;
 }
 
 #homeBtn:hover {

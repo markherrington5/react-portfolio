@@ -22,30 +22,25 @@ const photography = () => (
     <Container>
       <Row>
         <Col>
-          <PhotoHeader Source={photo1} Alt={"201610_Rome_01 AV-1, Vista 200"} Line1={'Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200'}/>
-          <Photoblock />
-          <div className="photoblock landscape">
-            <img
-              src={photo1}
-              alt="201610_Rome_01 AV-1, Vista 200"
-              className="photo"
-            />
-            <p className="imgDesc">
-              Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200
-            </p>
-            <p className="imgDesc">Rome, Italy</p>
-            <p className="imgDesc">October 2016</p>
-          </div>
-          <div className="photoblock square">
-            <img
-              src={photo2}
-              alt="201708_Crosstown_01 124G, HP5"
-              className="photo"
-            />
-            <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
-            <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">August 2017</p>
-          </div>
+          <PhotoHeader />
+          <Photoblock
+            className='photoblock'
+            orientation={"landscape"}
+            source={photo1}
+            alt={"201610_Rome_01 AV-1, Vista 200"}
+            line1={"Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200"}
+            line2={"Rome, Italy"}
+            line3={"October 2016"}
+          />
+          <Photoblock
+            className='photoblock'
+            orientation={"square"}
+            source={photo2}
+            alt={"201708_Crosstown_01 124G, HP5"}
+            line1={"Yashica Mat-124G / Ilford HP5"}
+            line2={"Memphis, TN, USA"}
+            line3={"August 2017"}
+          />
           <div className="photoblock portrait">
             <img
               src={photo3}
