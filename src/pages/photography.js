@@ -106,7 +106,7 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">Oslo, Norway</p>
-            <p className="imgDesc">Zorki 4K / ЮПИТЕР-8 50mm f/2</p>
+            <p className="imgDesc">Zorki-4K / ЮПИТЕР-8 50mm f/2</p>
             <p className="imgDesc">Agfa Vista 200</p>
             <p className="imgDesc">September 2016</p>
           </div>
