@@ -1,4 +1,4 @@
-#photoTitle {
+#subTitle {
   color: #000000;
   font-size: 5vw;
   text-align: left;
@@ -15,8 +15,8 @@
 
 /* ANIMATION: */
 
-.animatePhotoTitle {
-  animation: animatePhotoTitle 1.2s cubic-bezier(0.2, 0.6, 0.2, 1);
+.animateSubTitle {
+  animation: animateSubTitle 1.2s cubic-bezier(0.2, 0.6, 0.2, 1);
   animation-fill-mode: backwards;
 }
 
@@ -24,7 +24,7 @@
   animation-delay: 0.2s;
 }
 
-@keyframes animatePhotoTitle {
+@keyframes animateSubTitle {
   0% {
     transform: translateX(-115%);
   }

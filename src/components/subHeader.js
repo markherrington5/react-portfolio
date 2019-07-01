@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/photoHeader.css";
+import "../styles/subHeader.css";
 
 const SubHeader = (props) => (
-    <h1 id="photoTitle">
-        <div class="animatePhotoTitle shortDelay">{props.title}</div>
+    <h1 id="subTitle">
+        <div class="animateSubTitle shortDelay">{props.title}</div>
     </h1>
 );
 
