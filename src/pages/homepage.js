@@ -4,11 +4,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import LgName from "../components/LgName.js";
 import LinkBtns from "../components/LinkBtns.js";
+import ContactInfo from "../components/contactInfo.js";
 import "../styles/homepage.css";
 import portrait from "../images/portrait.jpg";
-import githubLogo from "../images/githubLogo.svg";
-import linkedinLogo from "../images/linkedinLogo.svg";
-import instagramLogo from "../images/instaLogo.svg";
 
 const homepage = () => (
   <div>
@@ -63,45 +61,7 @@ const homepage = () => (
         </Col>
       </Row>
     </Container>
-    <div id="contactInfo">
-      <Row>
-        <Col md={6} xs={12}>
-          <h2 className="contact">Contact Me</h2>
-          <p id="email">email: markherrington5@gmail.com</p>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/markherrington18/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="linkImg" src={linkedinLogo} alt="linkedinLogo" />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.instagram.com/mtherrington/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="linkImg"
-                src={instagramLogo}
-                alt="instagramLogo"
-              />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://github.com/markherrington5"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="linkImg" src={githubLogo} alt="githubLogo" />
-            </a>
-          </div>
-        </Col>
-      </Row>
-    </div>
+    <ContactInfo />
   </div>
 );
 
