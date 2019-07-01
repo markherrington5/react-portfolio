@@ -19,9 +19,9 @@ const homepage = () => (
           <p id="greeting">Hi! I'm Mark Herrington.</p>
           <p id="intro">
             I'm a new web developer excited about entering the world of coding.
-            I have a BA from Rhodes College in Memphis, where I majored in
-            History and minored in Religious Studies. I am a recent graduate of
-            the Georgia Tech Full Stack Web Development boot camp in Atlanta.
+            I have a BA in History from Rhodes College in Memphis and a full stack
+            web development certification from Georgia Tech. I am currently working
+            as a designer/developer at Emory University.
           </p>
         </Col>
         <Col sm={5}>
