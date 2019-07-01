@@ -1,9 +1,9 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import githubLogo from "../images/githubLogo.svg";
-import linkedinLogo from "../images/linkedinLogo.svg";
-import instagramLogo from "../images/instaLogo.svg";
+import githubLogo from "../images/socialLogos/githubLogo.svg";
+import linkedinLogo from "../images/socialLogos/linkedinLogo.svg";
+import instagramLogo from "../images/socialLogos/instaLogo.svg";
 
 const ContactMe = (props) => (
   <div id="contactInfo">

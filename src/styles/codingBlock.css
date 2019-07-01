@@ -1,3 +1,7 @@
 #ProjectTitle {
     font-size: 1.8vw;
+    margin-bottom: 10px;
+}
+#ProjectDetails {
+    font-size: .8vw;
 }
