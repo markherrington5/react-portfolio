@@ -28,9 +28,8 @@ const photography = () => (
               alt="201610_Rome_01 AV-1, Vista 200"
               className="photo"
             />
+            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200</p>
             <p className="imgDesc">Rome, Italy</p>
-            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD</p>
-            <p className="imgDesc">Agfa Vista 200</p>
             <p className="imgDesc">October 2016</p>
           </div>
           <div className="photoblock square">
@@ -39,9 +38,8 @@ const photography = () => (
               alt="201708_Crosstown_01 124G, HP5"
               className="photo"
             />
+            <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
             <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">Yashica Mat-124G</p>
-            <p className="imgDesc">Ilford HP5</p>
             <p className="imgDesc">August 2017</p>
           </div>
           <div className="photoblock portrait">
@@ -50,9 +48,8 @@ const photography = () => (
               alt="201802_Beale_19 35RC, T-Max 400"
               className="photo"
             />
+            <p className="imgDesc">Olympus 35RC / Kodak T-Max 400</p>
             <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">Olympus 35RC</p>
-            <p className="imgDesc">Kodak T-Max 400</p>
             <p className="imgDesc">February 2018</p>
           </div>
           <div className="photoblock landscape">
@@ -61,9 +58,8 @@ const photography = () => (
               alt="201803_StLouisZoo_01 M645, Portra 160"
               className="photo"
             />
+            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N / Kodak Portra 160</p>
             <p className="imgDesc">St. Louis, MO, USA</p>
-            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N</p>
-            <p className="imgDesc">Kodak Portra 160</p>
             <p className="imgDesc">March 2018</p>
           </div>
           <div className="photoblock landscape">
@@ -72,9 +68,8 @@ const photography = () => (
               alt="201610_SanVigilio_01 AV-1, Vista 200"
               className="photo"
             />
+            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200</p>
             <p className="imgDesc">San Vigilio, Italy</p>
-            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD</p>
-            <p className="imgDesc">Agfa Vista 200</p>
             <p className="imgDesc">October 2016</p>
           </div>
           <div className="photoblock square">
@@ -83,9 +78,8 @@ const photography = () => (
               alt="201708_Crosstown_03 124G, HP5"
               className="photo"
             />
+            <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
             <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">Yashica Mat-124G</p>
-            <p className="imgDesc">Ilford HP5</p>
             <p className="imgDesc">August 2017</p>
           </div>
           <div className="photoblock landscape">
@@ -94,9 +88,8 @@ const photography = () => (
               alt="201803_Laumeier_05 M645, Portra 160"
               className="photo"
             />
+            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N / Portra 160</p>
             <p className="imgDesc">St. Louis, MO, USA</p>
-            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N</p>
-            <p className="imgDesc">Portra 160</p>
             <p className="imgDesc">March 2018</p>
           </div>
           <div className="photoblock portrait">
@@ -105,9 +98,8 @@ const photography = () => (
               alt="201609_Norway_01 Zorki, Vista 200"
               className="photo"
             />
+            <p className="imgDesc">Zorki-4K / ЮПИТЕР-8 50mm f/2 / Agfa Vista 200</p>
             <p className="imgDesc">Oslo, Norway</p>
-            <p className="imgDesc">Zorki-4K / ЮПИТЕР-8 50mm f/2</p>
-            <p className="imgDesc">Agfa Vista 200</p>
             <p className="imgDesc">September 2016</p>
           </div>
           <div className="photoblock landscape">
@@ -116,9 +108,8 @@ const photography = () => (
               alt="201904_MasonMill_06 CL, Fomapan 400"
               className="photo"
             />
+            <p className="imgDesc">Leitz-Minolta CL / Voigtländer Nokton Classic 40mm / Fomapan 400</p>
             <p className="imgDesc">Decatur, GA</p>
-            <p className="imgDesc">Leitz-Minolta CL / Voigtländer Nokton Classic 40mm</p>
-            <p className="imgDesc">Fomapan 400</p>
             <p className="imgDesc">April 2019</p>
           </div>
         </Col>

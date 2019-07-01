@@ -2,8 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import HomeBtn from "../components/homeBtn.js";
 
 const coding = () => (
+  <div>
+    <HomeBtn />
     <Container id='s1'>
     <Row>
       <Col>
@@ -11,6 +14,7 @@ const coding = () => (
       </Col>
     </Row>
   </Container>
+  </div>
 );
 
 export default coding;
