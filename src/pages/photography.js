@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
 import SubHeader from "../components/subHeader.js";
 import Photoblock from "../components/photoblock.js";
+import ContactInfo from "../components/contactInfo.js";
 import "../styles/photography.css";
 import photo1 from "../images/photography/photo1.jpg";
 import photo2 from "../images/photography/photo2.jpg";
@@ -127,6 +128,7 @@ const photography = () => (
         </Col>
       </Row>
     </Container>
+    <ContactInfo />
   </div>
 );
 

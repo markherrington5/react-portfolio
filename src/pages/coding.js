@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
 import SubHeader from "../components/subHeader.js";
 import CodingBlock from "../components/codingBlock.js";
+import ContactInfo from "../components/contactInfo.js";
 
 const coding = () => (
   <div>
@@ -21,6 +22,7 @@ const coding = () => (
         </Col>
       </Row>
     </Container>
+    <ContactInfo />
   </div>
 );
 
