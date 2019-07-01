@@ -10,7 +10,7 @@ const CodingBlock = props => (
             <p id="ProjectDetails">{props.ProjectDetails}</p>
         </Col>
         <Col xs={12} md={5}>
-            <img src={props.source} alt={props.alt}/>
+            <img id="projectThumb" src={props.ImgSource} alt={props.alt}/>
         </Col>
     </Row>
   );
