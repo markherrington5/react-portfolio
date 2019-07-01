@@ -1,7 +1,14 @@
 body {
     margin: 0px;
     font-family: 'Open Sans', Arial, sans-serif;
-    color: black
+    color: #000000
+}
+
+::selection {
+  background: #a7a7a7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #a7a7a7; /* Gecko Browsers */
 }
 
 /* SCROLLBAR */
