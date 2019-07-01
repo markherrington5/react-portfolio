@@ -23,104 +23,107 @@ const photography = () => (
       <Row>
         <Col>
           <PhotoHeader />
-          <Photoblock
-            className='photoblock'
-            orientation={"landscape"}
-            source={photo1}
-            alt={"201610_Rome_01 AV-1, Vista 200"}
-            line1={"Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200"}
-            line2={"Rome, Italy"}
-            line3={"October 2016"}
-          />
-          <Photoblock
-            className='photoblock'
-            orientation={"square"}
-            source={photo2}
-            alt={"201708_Crosstown_01 124G, HP5"}
-            line1={"Yashica Mat-124G / Ilford HP5"}
-            line2={"Memphis, TN, USA"}
-            line3={"August 2017"}
-          />
-          <div className="photoblock portrait">
-            <img
-              src={photo3}
-              alt="201802_Beale_19 35RC, T-Max 400"
-              className="photo"
-            />
-            <p className="imgDesc">Olympus 35RC / Kodak T-Max 400</p>
-            <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">February 2018</p>
-          </div>
-          <div className="photoblock landscape">
-            <img
-              src={photo4}
-              alt="201803_StLouisZoo_01 M645, Portra 160"
-              className="photo"
-            />
-            <p className="imgDesc">
-              Mamiya M645 Super / 80mm f/2.8N / Kodak Portra 160
-            </p>
-            <p className="imgDesc">St. Louis, MO, USA</p>
-            <p className="imgDesc">March 2018</p>
-          </div>
-          <div className="photoblock landscape">
-            <img
-              src={photo5}
-              alt="201610_SanVigilio_01 AV-1, Vista 200"
-              className="photo"
-            />
-            <p className="imgDesc">
-              Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200
-            </p>
-            <p className="imgDesc">San Vigilio, Italy</p>
-            <p className="imgDesc">October 2016</p>
-          </div>
-          <div className="photoblock square">
-            <img
-              src={photo6}
-              alt="201708_Crosstown_03 124G, HP5"
-              className="photo"
-            />
-            <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
-            <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">August 2017</p>
-          </div>
-          <div className="photoblock landscape">
-            <img
-              src={photo7}
-              alt="201803_Laumeier_05 M645, Portra 160"
-              className="photo"
-            />
-            <p className="imgDesc">
-              Mamiya M645 Super / 80mm f/2.8N / Portra 160
-            </p>
-            <p className="imgDesc">St. Louis, MO, USA</p>
-            <p className="imgDesc">March 2018</p>
-          </div>
-          <div className="photoblock portrait">
-            <img
-              src={photo8}
-              alt="201609_Norway_01 Zorki, Vista 200"
-              className="photo"
-            />
-            <p className="imgDesc">
-              Zorki-4K / ЮПИТЕР-8 50mm f/2 / Agfa Vista 200
-            </p>
-            <p className="imgDesc">Oslo, Norway</p>
-            <p className="imgDesc">September 2016</p>
-          </div>
-          <div className="photoblock landscape">
-            <img
-              src={photo9}
-              alt="201904_MasonMill_06 CL, Fomapan 400"
-              className="photo"
-            />
-            <p className="imgDesc">
-              Leitz-Minolta CL / Voigtländer Nokton Classic 40mm / Fomapan 400
-            </p>
-            <p className="imgDesc">Decatur, GA</p>
-            <p className="imgDesc">April 2019</p>
-          </div>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={12}>
+              <Photoblock
+                source={photo1}
+                alt={"201610_Rome_01 AV-1, Vista 200"}
+                line1={"Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200"}
+                line2={"Rome, Italy"}
+                line3={"October 2016"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={9}>
+              <Photoblock
+                source={photo2}
+                alt={"201708_Crosstown_01 124G, HP5"}
+                line1={"Yashica Mat-124G / Ilford HP5"}
+                line2={"Memphis, TN, USA"}
+                line3={"August 2017"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={7}>
+              <Photoblock
+                source={photo3}
+                alt={"201802_Beale_19 35RC, T-Max 400"}
+                line1={"Olympus 35RC / Kodak T-Max 400"}
+                line2={"Memphis, TN, USA"}
+                line3={"February 2018"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={12}>
+              <Photoblock
+                source={photo4}
+                alt={"201803_StLouisZoo_01 M645, Portra 160"}
+                line1={"Mamiya M645 Super / 80mm f/2.8N / Kodak Portra 160"}
+                line2={"St. Louis, MO, USA"}
+                line3={"March 2018"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={12}>
+              <Photoblock
+                source={photo5}
+                alt={"201610_SanVigilio_01 AV-1, Vista 200"}
+                line1={"Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200"}
+                line2={"San Vigilio, Italy"}
+                line3={"October 2016"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={9}>
+              <Photoblock
+                source={photo6}
+                alt={"201708_Crosstown_03 124G, HP5"}
+                line1={"Yashica Mat-124G / Ilford HP5"}
+                line2={"Memphis, TN, USA"}
+                line3={"August 2017"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={12}>
+              <Photoblock
+                source={photo7}
+                alt={"201803_Laumeier_05 M645, Portra 160"}
+                line1={"Mamiya M645 Super / 80mm f/2.8N / Portra 160"}
+                line2={"St. Louis, MO, USA"}
+                line3={"March 2018"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={7}>
+              <Photoblock
+                source={photo8}
+                alt={"201609_Norway_01 Zorki, Vista 200"}
+                line1={"Zorki-4K / ЮПИТЕР-8 50mm f/2 / Agfa Vista 200"}
+                line2={"Oslo, Norway"}
+                line3={"September 2016"}
+              />
+            </Col>
+          </Row>
+          <Row className="photoblock justify-content-md-center">
+            <Col xs={12} md={12}>
+              <Photoblock
+                source={photo9}
+                alt={"201904_MasonMill_06 CL, Fomapan 400"}
+                line1={
+                  "Leitz-Minolta CL / Voigtländer Nokton Classic 40mm / Fomapan 400"
+                }
+                line2={"Decatur, GA, USA"}
+                line3={"April 2019"}
+              />
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
