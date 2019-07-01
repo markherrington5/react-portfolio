@@ -3,17 +3,19 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
+import SubHeader from "../components/subHeader.js";
 
 const coding = () => (
   <div>
     <HomeBtn />
-    <Container id='s1'>
-    <Row>
-      <Col>
-        <h2>Under Construction!</h2>
-      </Col>
-    </Row>
-  </Container>
+    <Container>
+      <Row>
+        <Col>
+          <SubHeader title={"Coding"}/>
+          
+        </Col>
+      </Row>
+    </Container>
   </div>
 );
 
