@@ -4,8 +4,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
 import PhotoHeader from "../components/photoHeader.js";
+import Photoblock from "../components/photoblock.js";
 import "../styles/photography.css";
-import photo from "../images/photography/photo1.jpg";
+import photo1 from "../images/photography/photo1.jpg";
 import photo2 from "../images/photography/photo2.jpg";
 import photo3 from "../images/photography/photo3.jpg";
 import photo4 from "../images/photography/photo4.jpg";
@@ -18,17 +19,20 @@ import photo9 from "../images/photography/photo9.jpg";
 const photography = () => (
   <div>
     <HomeBtn />
-    <Container id="s1">
+    <Container>
       <Row>
         <Col>
-          <PhotoHeader />
+          <PhotoHeader Source={photo1} Alt={"201610_Rome_01 AV-1, Vista 200"} Line1={'Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200'}/>
+          <Photoblock />
           <div className="photoblock landscape">
             <img
-              src={photo}
+              src={photo1}
               alt="201610_Rome_01 AV-1, Vista 200"
               className="photo"
             />
-            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200</p>
+            <p className="imgDesc">
+              Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200
+            </p>
             <p className="imgDesc">Rome, Italy</p>
             <p className="imgDesc">October 2016</p>
           </div>
@@ -58,7 +62,9 @@ const photography = () => (
               alt="201803_StLouisZoo_01 M645, Portra 160"
               className="photo"
             />
-            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N / Kodak Portra 160</p>
+            <p className="imgDesc">
+              Mamiya M645 Super / 80mm f/2.8N / Kodak Portra 160
+            </p>
             <p className="imgDesc">St. Louis, MO, USA</p>
             <p className="imgDesc">March 2018</p>
           </div>
@@ -68,7 +74,9 @@ const photography = () => (
               alt="201610_SanVigilio_01 AV-1, Vista 200"
               className="photo"
             />
-            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200</p>
+            <p className="imgDesc">
+              Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200
+            </p>
             <p className="imgDesc">San Vigilio, Italy</p>
             <p className="imgDesc">October 2016</p>
           </div>
@@ -88,7 +96,9 @@ const photography = () => (
               alt="201803_Laumeier_05 M645, Portra 160"
               className="photo"
             />
-            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N / Portra 160</p>
+            <p className="imgDesc">
+              Mamiya M645 Super / 80mm f/2.8N / Portra 160
+            </p>
             <p className="imgDesc">St. Louis, MO, USA</p>
             <p className="imgDesc">March 2018</p>
           </div>
@@ -98,7 +108,9 @@ const photography = () => (
               alt="201609_Norway_01 Zorki, Vista 200"
               className="photo"
             />
-            <p className="imgDesc">Zorki-4K / ЮПИТЕР-8 50mm f/2 / Agfa Vista 200</p>
+            <p className="imgDesc">
+              Zorki-4K / ЮПИТЕР-8 50mm f/2 / Agfa Vista 200
+            </p>
             <p className="imgDesc">Oslo, Norway</p>
             <p className="imgDesc">September 2016</p>
           </div>
@@ -108,7 +120,9 @@ const photography = () => (
               alt="201904_MasonMill_06 CL, Fomapan 400"
               className="photo"
             />
-            <p className="imgDesc">Leitz-Minolta CL / Voigtländer Nokton Classic 40mm / Fomapan 400</p>
+            <p className="imgDesc">
+              Leitz-Minolta CL / Voigtländer Nokton Classic 40mm / Fomapan 400
+            </p>
             <p className="imgDesc">Decatur, GA</p>
             <p className="imgDesc">April 2019</p>
           </div>
