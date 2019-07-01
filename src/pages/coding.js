@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
 import SubHeader from "../components/subHeader.js";
+import CodingBlock from "../components/codingBlock.js";
 
 const coding = () => (
   <div>
@@ -11,8 +12,12 @@ const coding = () => (
     <Container>
       <Row>
         <Col>
-          <SubHeader title={"Coding"}/>
-          
+          <SubHeader title={"Coding"} />
+          <Row>
+            <Col>
+            <CodingBlock ProjectTitle={"Ingles 2.0"}/>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
