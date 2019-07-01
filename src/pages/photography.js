@@ -13,6 +13,7 @@ import photo5 from "../images/photography/photo5.jpg";
 import photo6 from "../images/photography/photo6.jpg";
 import photo7 from "../images/photography/photo7.jpg";
 import photo8 from "../images/photography/photo8.jpg";
+import photo9 from "../images/photography/photo9.jpg";
 
 const photography = () => (
   <div>
@@ -28,7 +29,8 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">Rome, Italy</p>
-            <p className="imgDesc">Canon AV-1 / Agfa Vista 200</p>
+            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD</p>
+            <p className="imgDesc">Agfa Vista 200</p>
             <p className="imgDesc">October 2016</p>
           </div>
           <div className="photoblock square">
@@ -38,7 +40,8 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
+            <p className="imgDesc">Yashica Mat-124G</p>
+            <p className="imgDesc">Ilford HP5</p>
             <p className="imgDesc">August 2017</p>
           </div>
           <div className="photoblock portrait">
@@ -48,7 +51,8 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">Olympus 35RC / Kodak T-Max 400</p>
+            <p className="imgDesc">Olympus 35RC</p>
+            <p className="imgDesc">Kodak T-Max 400</p>
             <p className="imgDesc">February 2018</p>
           </div>
           <div className="photoblock landscape">
@@ -58,7 +62,8 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">St. Louis, MO, USA</p>
-            <p className="imgDesc">Mamiya M645 Super / Kodak Portra 160</p>
+            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N</p>
+            <p className="imgDesc">Kodak Portra 160</p>
             <p className="imgDesc">March 2018</p>
           </div>
           <div className="photoblock landscape">
@@ -68,7 +73,8 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">San Vigilio, Italy</p>
-            <p className="imgDesc">Canon AV-1 / Agfa Vista 200</p>
+            <p className="imgDesc">Canon AV-1 / 50mm f/1.8 FD</p>
+            <p className="imgDesc">Agfa Vista 200</p>
             <p className="imgDesc">October 2016</p>
           </div>
           <div className="photoblock square">
@@ -78,7 +84,8 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">Memphis, TN, USA</p>
-            <p className="imgDesc">Yashica Mat-124G / Ilford HP5</p>
+            <p className="imgDesc">Yashica Mat-124G</p>
+            <p className="imgDesc">Ilford HP5</p>
             <p className="imgDesc">August 2017</p>
           </div>
           <div className="photoblock landscape">
@@ -88,7 +95,8 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">St. Louis, MO, USA</p>
-            <p className="imgDesc">Mamiya M645 Super / Kodak Portra 160</p>
+            <p className="imgDesc">Mamiya M645 Super / 80mm f/2.8N</p>
+            <p className="imgDesc">Portra 160</p>
             <p className="imgDesc">March 2018</p>
           </div>
           <div className="photoblock portrait">
@@ -98,8 +106,20 @@ const photography = () => (
               className="photo"
             />
             <p className="imgDesc">Oslo, Norway</p>
-            <p className="imgDesc">Zorki 4K / Agfa Vista 200</p>
+            <p className="imgDesc">Zorki 4K / ЮПИТЕР-8 50mm f/2</p>
+            <p className="imgDesc">Agfa Vista 200</p>
             <p className="imgDesc">September 2016</p>
+          </div>
+          <div className="photoblock landscape">
+            <img
+              src={photo9}
+              alt="201904_MasonMill_06 CL, Fomapan 400"
+              className="photo"
+            />
+            <p className="imgDesc">Decatur, GA</p>
+            <p className="imgDesc">Leitz-Minolta CL / Voigtländer Nokton Classic 40mm</p>
+            <p className="imgDesc">Fomapan 400</p>
+            <p className="imgDesc">April 2019</p>
           </div>
         </Col>
       </Row>
