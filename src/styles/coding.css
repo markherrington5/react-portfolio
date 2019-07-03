@@ -1,3 +1,12 @@
 .codingBlock {
     margin-bottom: 70px;
 }
+
+.projectThumb {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.projectThumb:hover {
+    -webkit-filter: brightness(70%);
+}
