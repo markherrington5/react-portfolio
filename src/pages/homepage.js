@@ -7,6 +7,7 @@ import LinkBtns from "../components/LinkBtns.js";
 import ContactInfo from "../components/contactInfo.js";
 import "../styles/homepage.css";
 import portrait from "../images/portrait.jpg";
+import resume from "../resume.pdf";
 
 const homepage = () => (
   <div>
@@ -14,7 +15,7 @@ const homepage = () => (
     <Container>
       <Row>
         <Col xs={12} md={7}>
-          <p id="greeting">Hi! I'm Mark Herrington.</p>
+          <h3 id="greeting">Hi! I'm Mark Herrington.</h3>
           <p id="intro">
             I'm a new web developer excited about entering the world of coding.
             I have a BA in History from Rhodes College in Memphis and a full stack
@@ -58,6 +59,7 @@ const homepage = () => (
             understandable, unobtrusive, honest, long-lasting, and thorough down
             to the last detail.
           </p>
+          <a id='resumeLink' href={resume}>View my resume (pdf 61kb)</a>
         </Col>
       </Row>
     </Container>
