@@ -1,12 +1,29 @@
 #ProjectTitle {
-    font-size: 1.8vw;
-    font-weight: 600;
-    margin-bottom: 10px;
+  font-size: 1.8vw;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 #ProjectDetails {
-    font-size: .8vw;
+  font-size: 0.8vw;
 }
 
 #projectThumb {
-    width: 100%;
+  width: 100%;
+}
+
+#projectThumb:hover {
+    animation: thumbAnimate .7s
+}
+
+/* ANIMATION */
+
+@keyframes thumbAnimate {
+  0% {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+  }
+  100% {
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+  }
 }
