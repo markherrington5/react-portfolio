@@ -59,7 +59,7 @@ const homepage = () => (
             understandable, unobtrusive, honest, long-lasting, and thorough down
             to the last detail.
           </p>
-          <a id='resumeLink' href={resume}>View my resume (pdf 61kb)</a>
+          <a id='resumeLink' href={resume}>View my resume (pdf 62kb)</a>
         </Col>
       </Row>
     </Container>
