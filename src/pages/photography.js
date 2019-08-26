@@ -70,7 +70,7 @@ const photography = () => (
             </Col>
           </Row>
           <Row className="photoblock justify-content-md-center">
-              <Col xs={12} md={9}>
+              <Col xs={12} md={7}>
                 <Photoblock
                   source={photo5}
                   alt={"201906_CarsAndCoffee CL, Tri-X"}
