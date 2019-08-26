@@ -16,6 +16,7 @@ import photo6 from "../images/photography/photo6.jpg";
 import photo7 from "../images/photography/photo7.jpg";
 import photo8 from "../images/photography/photo8.jpg";
 import photo9 from "../images/photography/photo9.jpg";
+import photo10 from "../images/photography/photo10.jpg";
 
 const photography = () => (
   <div>
@@ -23,7 +24,7 @@ const photography = () => (
     <Container>
       <Row>
         <Col>
-          <SubHeader title={"Photography"}/>
+          <SubHeader title={"Photography"} />
           <Row className="photoblock justify-content-md-center">
             <Col xs={12} md={12}>
               <Photoblock
@@ -69,9 +70,20 @@ const photography = () => (
             </Col>
           </Row>
           <Row className="photoblock justify-content-md-center">
+              <Col xs={12} md={9}>
+                <Photoblock
+                  source={photo5}
+                  alt={"201906_CarsAndCoffee CL, Tri-X"}
+                  line1={"Leitz-Minolta CL / Voigtländer Nokton Classic 40mm / Kodak Tri-X 400"}
+                  line2={"Birmingham, AL, USA"}
+                  line3={"June 2019"}
+                />
+              </Col>
+            </Row>
+          <Row className="photoblock justify-content-md-center">
             <Col xs={12} md={12}>
               <Photoblock
-                source={photo5}
+                source={photo6}
                 alt={"201610_SanVigilio_01 AV-1, Vista 200"}
                 line1={"Canon AV-1 / 50mm f/1.8 FD / Agfa Vista 200"}
                 line2={"San Vigilio, Italy"}
@@ -82,7 +94,7 @@ const photography = () => (
           <Row className="photoblock justify-content-md-center">
             <Col xs={12} md={9}>
               <Photoblock
-                source={photo6}
+                source={photo7}
                 alt={"201708_Crosstown_03 124G, HP5"}
                 line1={"Yashica Mat-124G / Ilford HP5"}
                 line2={"Memphis, TN, USA"}
@@ -93,7 +105,7 @@ const photography = () => (
           <Row className="photoblock justify-content-md-center">
             <Col xs={12} md={12}>
               <Photoblock
-                source={photo7}
+                source={photo8}
                 alt={"201803_Laumeier_05 M645, Portra 160"}
                 line1={"Mamiya M645 Super / 80mm f/2.8N / Portra 160"}
                 line2={"St. Louis, MO, USA"}
@@ -104,7 +116,7 @@ const photography = () => (
           <Row className="photoblock justify-content-md-center">
             <Col xs={12} md={7}>
               <Photoblock
-                source={photo8}
+                source={photo9}
                 alt={"201609_Norway_01 Zorki, Vista 200"}
                 line1={"Zorki-4K / ЮПИТЕР-8 50mm f/2 / Agfa Vista 200"}
                 line2={"Oslo, Norway"}
@@ -115,7 +127,7 @@ const photography = () => (
           <Row className="photoblock justify-content-md-center">
             <Col xs={12} md={12}>
               <Photoblock
-                source={photo9}
+                source={photo10}
                 alt={"201904_MasonMill_06 CL, Fomapan 400"}
                 line1={
                   "Leitz-Minolta CL / Voigtländer Nokton Classic 40mm / Fomapan 400"
