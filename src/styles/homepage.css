@@ -57,6 +57,7 @@ h2 {
 #contactInfo {
   width: 99%;
   margin-right: auto;
+  overflow: hidden;
 }
 
 .contact {
@@ -70,13 +71,45 @@ h2 {
 }
 
 .linkImg {
-  margin: 0px 0px 2% 1%;
+  margin: 0px 0px 1rem .5rem;
   float: left;
-  width: 7.5%;
+  width: 5rem;
 }
 
 #email {
   margin: 0px 0px 0px 1%;
   font-size: 2em;
   clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  #greeting {
+    display: none;
+  }
+  #intro {
+    font-size: 1.25em;
+  }
+  #row2 {
+    margin-top: 1rem;
+  }
+  .about {
+    font-size: 1em;
+  }
+  #resumeLink {
+    font-size: 1.5em;
+  }
+  .contact {
+    margin-top: 3rem;
+    font-size: 3em;
+  }
+  #email {
+    font-size: 1.5em;
+  }
+  .linkImg {
+    margin: 0% 0% .5rem .25rem;
+    width: 4rem;
+  }
 }

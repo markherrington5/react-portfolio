@@ -162,7 +162,7 @@ const photography = () => (
               />
             </Col>
           </Row>
-          <Row className="photoblock justify-content-md-center">
+          <Row className="photoblock justify-content-md-center" id='finalphoto'>
             <Col xs={12} md={7}>
               <Photoblock
                 source={cl_tmax_atlhistcenter}
