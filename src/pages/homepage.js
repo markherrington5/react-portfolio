@@ -14,16 +14,15 @@ const homepage = () => (
     <LgName />
     <Container>
       <Row>
-        <Col xs={12} md={7}>
+        <Col xs={12} md={6}>
           <h3 id="greeting">Hi! I'm Mark Herrington.</h3>
           <p id="intro">
-            I'm a new web developer excited about entering the world of coding.
-            I have a BA in History from Rhodes College in Memphis and a full stack
-            web development certification from Georgia Tech. I am currently working
-            as a designer/developer at Emory University.
+            I'm a new developer excited about his recent entrance into the world of coding.
+            I have a history degree from Rhodes College and a web development certification from Georgia Tech. I am currently working
+            as a web developer at Emory University.
           </p>
         </Col>
-        <Col sm={5}>
+        <Col sm={6}>
           <img id="portrait" src={portrait} alt="portrait" />
         </Col>
       </Row>
