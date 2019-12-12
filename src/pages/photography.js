@@ -23,6 +23,9 @@ import cl_tmax_atlhistcenter from "../images/photography/cltmaxatlhistcenter.jpg
 import fe2_trix_atlutd from "../images/photography/fe2trixmercstadium.jpg";
 import av1_vista_venice from "../images/photography/av1vistavenice.jpg";
 import m645s_delta3200_rites from "../images/photography/m645sdelta3200rites.jpg";
+import av1_panf_rhodes from "../images/photography/av1panfrhodes.jpg"
+import olympus35rc_gold_chattanooga from "../images/photography/35rcgoldchattanooga.jpg"
+import ae1_hp5_overton from "../images/photography/ae1hp5overton.jpg"
 
 const galleryImgs = [
   {
@@ -76,9 +79,19 @@ const galleryImgs = [
     height: 3
   },
   {
+    src: av1_panf_rhodes,
+    width: 3,
+    height: 2
+  },
+  {
     src: m645s_portra160_stlzoo_sculpture,
     width: 4,
     height: 3
+  },
+  {
+    src: ae1_hp5_overton,
+    width: 3,
+    height: 2
   },
   {
     src: zorki_vista_oslo,
@@ -95,13 +108,19 @@ const galleryImgs = [
     width: 2,
     height: 3
   },
-  
+
   {
     src: cl_tmax_atlhistcenter,
     width: 2,
     height: 3
+  },
+  {
+    src: olympus35rc_gold_chattanooga,
+    width: 2,
+    height: 3
   }
 ]
+
 
 const photography = () => (
   <div>
