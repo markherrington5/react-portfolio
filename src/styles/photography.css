@@ -17,6 +17,15 @@
   font-style: italic;
 }
 
+.react-photo-gallery--gallery div img {
+  transition: all .07s ease-in-out;
+}
+
+.react-photo-gallery--gallery div img:hover {
+  transform: scale(1.25);
+  border: .25rem solid white;
+}
+
 @media only screen and (max-width: 600px) {
   #homeBtn {
     display: none;

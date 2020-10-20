@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
 import Container from "react-bootstrap/Container";
 import Gallery from "react-photo-gallery";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
 import SubHeader from "../components/subHeader.js";
-import Photoblock from "../components/photoblock.js";
+import Carousel, { Modal, ModalGateway } from "react-images";
+
 import ContactInfo from "../components/contactInfo.js";
+
 import "../styles/photography.css";
+
 import av1_vista_rome from "../images/photography/av1vistarome.jpg";
 import mat124g_hp5_xtown_farmburger from "../images/photography/124ghp5xtown1.jpg";
 import olympus35rc_tmax_bealest from "../images/photography/35rctmaxbeale.jpg";
@@ -27,9 +30,10 @@ import av1_panf_rhodes from "../images/photography/av1panfrhodes.jpg"
 import olympus35rc_gold_chattanooga from "../images/photography/35rcgoldchattanooga.jpg"
 import ae1_hp5_overton from "../images/photography/ae1hp5overton.jpg"
 
-const galleryImgs = [
+const photos = [
   {
     src: fe2_trix_atlutd,
+    fullscreen: fe2_trix_atlutd,
     width: 2,
     height: 3
   },
@@ -121,20 +125,51 @@ const galleryImgs = [
   }
 ]
 
+function Photography() {
 
-const photography = () => (
-  <div>
-    <HomeBtn />
-    <Container>
-      <Row>
-        <Col>
-          <SubHeader title={"Photography"} />
-          <Gallery photos={galleryImgs} />
-        </Col>
-      </Row>
-    </Container>
-    <ContactInfo />
-  </div>
-);
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-export default photography;
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
+
+  return (
+    <div>
+      <HomeBtn />
+      <Container>
+        <Row>
+          <Col>
+            <SubHeader title={"Photography"} />
+            <Gallery photos={photos} onClick={openLightbox} />
+            <ModalGateway>
+              {viewerIsOpen ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    currentIndex={currentImage}
+                    views={photos.map(x => ({
+                      ...x,
+                      srcset: x.srcSet,
+                      caption: x.title
+                    }))}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
+          </Col>
+        </Row>
+      </Container>
+      <ContactInfo />
+    </div>
+  )
+}
+
+const container = document.createElement("div");
+document.body.appendChild(container);
+export default Photography;
