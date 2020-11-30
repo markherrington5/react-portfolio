@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/LgName.css";
+import "../styles/LgName.scss";
 
 const LgName = () => (
     <h1 id="largeName">

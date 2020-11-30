@@ -1,15 +1,14 @@
-import React, { useState, useCallback } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
-import Gallery from "react-photo-gallery";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import HomeBtn from "../components/homeBtn.js";
 import SubHeader from "../components/subHeader.js";
-import Carousel, { Modal, ModalGateway } from "react-images";
 
+import GalleryThumb from "../components/galleryThumb.js";
 import ContactInfo from "../components/contactInfo.js";
 
-import "../styles/photography.css";
+import "../styles/photography.scss";
 
 import av1_vista_rome from "../images/photography/av1vistarome.jpg";
 import mat124g_hp5_xtown_farmburger from "../images/photography/124ghp5xtown1.jpg";
@@ -33,7 +32,6 @@ import ae1_hp5_overton from "../images/photography/ae1hp5overton.jpg"
 const photos = [
   {
     src: fe2_trix_atlutd,
-    fullscreen: fe2_trix_atlutd,
     width: 2,
     height: 3
   },
@@ -127,19 +125,6 @@ const photos = [
 
 function Photography() {
 
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
-
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
-
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
-
   return (
     <div>
       <HomeBtn />
@@ -147,21 +132,9 @@ function Photography() {
         <Row>
           <Col>
             <SubHeader title={"Photography"} />
-            <Gallery photos={photos} onClick={openLightbox} />
-            <ModalGateway>
-              {viewerIsOpen ? (
-                <Modal onClose={closeLightbox}>
-                  <Carousel
-                    currentIndex={currentImage}
-                    views={photos.map(x => ({
-                      ...x,
-                      srcset: x.srcSet,
-                      caption: x.title
-                    }))}
-                  />
-                </Modal>
-              ) : null}
-            </ModalGateway>
+            {photos.map((value, index, array) => {
+              return <GalleryThumb value={value} key={index} />
+            })}
           </Col>
         </Row>
       </Container>
@@ -170,6 +143,4 @@ function Photography() {
   )
 }
 
-const container = document.createElement("div");
-document.body.appendChild(container);
 export default Photography;

@@ -12,16 +12,14 @@
     text-decoration: none;
     margin: 10px auto 10px 10px;
     float: left;
-}
-
-#homeBtn:hover {
-    background-color: black;
-    text-decoration: none;
-    color: white;
-}
-
-#homeBtn:active {
-    position:relative;
-    text-decoration: none;
-    top: 3px;
+    &:hover {
+        background-color: black;
+        text-decoration: none;
+        color: white;
+    }
+    &:active {
+        position:relative;
+        text-decoration: none;
+        top: 3px;
+    }
 }

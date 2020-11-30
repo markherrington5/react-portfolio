@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/LinkBtns.css';
+import '../styles/LinkBtns.scss';
 
 const LinkBtns = () => (
     <div>

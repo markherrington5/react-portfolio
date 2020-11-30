@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import LgName from "../components/LgName.js";
 import LinkBtns from "../components/LinkBtns.js";
 import ContactInfo from "../components/contactInfo.js";
-import "../styles/homepage.css";
+import "../styles/homepage.scss";
 import portrait from "../images/portrait.jpg";
 import resume from "../resume.pdf";
 
