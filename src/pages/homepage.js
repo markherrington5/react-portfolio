@@ -17,9 +17,7 @@ const homepage = () => (
         <Col xs={12} md={6}>
           <h3 id="greeting">Hi! I'm Mark Herrington.</h3>
           <p id="intro">
-            I'm a new developer excited about his recent entrance into the world of coding.
-            I have a history degree from Rhodes College and a web development certification from Georgia Tech. I am currently working
-            as a web developer at Emory University.
+            I'm a React developer. I have a history degree from Rhodes College and a web development certification from Georgia Tech. I currently reside in Atlanta and work in the Office of Information Technology at Emory University.
           </p>
         </Col>
         <Col sm={6}>
