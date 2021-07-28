@@ -1,29 +1,23 @@
 {
   "name": "react-portfolio",
   "version": "0.1.1",
-  "engines": {
-    "yarn": "1.x"
-  },
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-react": "^0.3.1",
+    "npm": "^7.20.2",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
-    "react-images": "^1.1.7",
-    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^1.1.5",
     "serve": "^12.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-prebuild": "yarn",
-    "heroku-postbuild": "yarn build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

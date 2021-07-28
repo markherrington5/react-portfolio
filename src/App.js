@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route} from 'react-router-dom';
 import homepage from './pages/homepage';
-import coding from './pages/coding';
+// import coding from './pages/coding';
 import photography from './pages/photography';
 
 const App = () => (
