@@ -3,11 +3,11 @@ import "../styles/LgName.css";
 
 const LgName = () => (
     <h1 id="largeName">
-      <div class="largeText">
-        <div class="animate shortDelay">Mark</div>
+      <div className="largeText">
+        <div className="animate shortDelay">Mark</div>
       </div>
-      <div class="largeText">
-        <div class="animate-inverse longDelay">Herrington</div>
+      <div className="largeText">
+        <div className="animate-inverse longDelay">Herrington</div>
       </div>
     </h1>
 );

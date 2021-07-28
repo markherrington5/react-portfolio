@@ -140,10 +140,9 @@ function Photography() {
 
             {photos.map((photo, index) => {
               return (
-                <Row className="photoblock justify-content-md-center">
+                <Row className="photoblock justify-content-md-center" key={index}>
                   <Col xs={12} md={7}>
                     <Photoblock
-                      key={index}
                       source={photo.src}
                       alt={`${photo.src}`}
                       line1={photo.line1}

@@ -3,7 +3,7 @@ import "../styles/subHeader.css";
 
 const SubHeader = (props) => (
     <h1 id="subTitle">
-        <div class="animateSubTitle shortDelay">{props.title}</div>
+        <div className="animateSubTitle shortDelay">{props.title}</div>
     </h1>
 );
 
