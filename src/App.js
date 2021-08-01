@@ -1,16 +1,19 @@
 import React from "react";
-import { BrowserRouter, Route} from 'react-router-dom';
-import homepage from './pages/homepage';
-// import coding from './pages/coding';
-import photography from './pages/photography';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import ScrollToTop from "./components/scrollToTop.js";
+import Homepage from './pages/homepage';
+import Gallery from './pages/gallery.js';
+import Photography from './pages/photography.js';
+import "./styles/App.scss";
 
 const App = () => (
   <BrowserRouter>
-      <div>
-          <Route exact path='/' component={homepage} />
-          {/* <Route exact path='/coding' component={coding} /> */}
-          <Route exact path='/photography' component={photography} />
-      </div>
+    <ScrollToTop />
+    <Switch>
+      <Route exact path='/' component={Homepage} />
+      <Route exact path='/photography' component={Gallery} />
+      <Route exact path='/photography/:id' component={Photography} />
+    </Switch>
   </BrowserRouter>
 );
 

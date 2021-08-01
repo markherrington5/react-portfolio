@@ -1,7 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Col, Container, Row } from "react-bootstrap";
 import LgName from "../components/LgName.js";
 import LinkBtns from "../components/LinkBtns.js";
 import ContactInfo from "../components/contactInfo.js";
@@ -9,7 +7,7 @@ import "../styles/homepage.css";
 import portrait from "../images/portrait.jpg";
 import resume from "../resume.pdf";
 
-const homepage = () => (
+const Homepage = () => (
   <div>
     <LgName />
     <Container>
@@ -66,4 +64,4 @@ const homepage = () => (
   </div>
 );
 
-export default homepage;
+export default Homepage;

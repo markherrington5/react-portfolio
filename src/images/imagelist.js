@@ -1,115 +1,120 @@
-import av1_vista_rome from "./photography/av1vistarome.jpg";
-import mat124g_hp5_xtown_farmburger from "./photography/124ghp5xtown1.jpg";
-import olympus35rc_tmax_bealest from "./photography/35rctmaxbeale.jpg";
-import m645s_portra160_stlzoo_butterfly from "./photography/m645sp160stlzoo1.jpg";
-import cl_trix_bhamcarsandcoffee from "./photography/cltrixcarscoffee.jpg";
-import av1_vista_sanvigilio from "./photography/av1vistasanvigilio.jpg";
-import mat124g_hp5_xtown_skylight from "./photography/124ghp5xtown2.jpg";
-import m645s_portra160_stlzoo_sculpture from "./photography/m645sp160stlzoo2.jpg";
-import zorki_vista_oslo from "./photography/zorkivistaoslo.jpg";
-import cl_fomapan_masonmill from "./photography/clfomapanmasonmill.jpg";
-import cl_ektachrome_pool from "./photography/clektagablespool.jpg";
-import cl_tmax_atlhistcenter from "./photography/cltmaxatlhistcenter.jpg";
-import fe2_trix_atlutd from "./photography/fe2trixmercstadium.jpg";
-import av1_vista_venice from "./photography/av1vistavenice.jpg";
-import m645s_delta3200_rites from "./photography/m645sdelta3200rites.jpg";
-import av1_panf_rhodes from "./photography/av1panfrhodes.jpg"
-import olympus35rc_gold_chattanooga from "./photography/35rcgoldchattanooga.jpg"
-import ae1_hp5_overton from "./photography/ae1hp5overton.jpg"
+import av1vistarome from "./photography/av1vistarome.jpg";
+import av1vistasanvigilio from "./photography/av1vistasanvigilio.jpg";
+import av1vistavenice from "./photography/av1vistavenice.jpg";
+import clgablespool from "./photography/clgablespool.jpg";
+import cltrixcars from "./photography/cltrixcars.jpg";
+import fe2sweetwater from "./photography/fe2sweetwater.jpg";
+import fe2trixmercstadium from "./photography/fe2trixmercstadium.jpg";
+import hasselbladektarzeke from "./photography/hasselbladektarzeke.jpg";
+import hasselbladchanningvalley from "./photography/hasselbladchanningvalley.jpg";
+import m645sstlzoo from "./photography/m645sstlzoo.jpg";
+import mat124ghp5xtown from "./photography/mat124ghp5xtown.jpg";
+import olympus35rctmaxbeale from "./photography/olympus35rctmaxbeale.jpg";
+import zorkivistaoslo from "./photography/zorkivistaoslo.jpg";
 
-const photos = [
+export const photos = [
     {
-        src: fe2_trix_atlutd,
-        fullscreen: fe2_trix_atlutd,
-        width: 2,
-        height: 3
+        "src": av1vistarome,
+        "name": "av1vistarome",
+        "camera": "Canon AV-1 | 50mm f/1.8 FD | Agfa Vista 200",
+        "date": "October 2016",
+        "orientation": "landscape",
+        "location": "Rome, Italy"
     },
     {
-        src: av1_vista_rome,
-        width: 3,
-        height: 2
+        "src": av1vistasanvigilio,
+        "name": "av1vistasanvigilio",
+        "camera": "Canon AV-1 | 50mm f/1.8 FD | Agfa Vista 200",
+        "date": "October 2016",
+        "orientation": "landscape",
+        "location": "San Vigilio, Italy"
     },
     {
-        src: mat124g_hp5_xtown_farmburger,
-        width: 1,
-        height: 1
+        "src": av1vistavenice,
+        "name": "av1vistavenice",
+        "camera": "Canon AV-1 | 50mm f/1.8 FD | Agfa Vista 200",
+        "date": "October 2016",
+        "orientation": "portrait",
+        "location": "Venice, Italy"
     },
     {
-        src: olympus35rc_tmax_bealest,
-        width: 2,
-        height: 3
+        "src": clgablespool,
+        "name": "clgablespool",
+        "camera": "Leitz-Minolta CL | Nokton Classic 40mm | Kodak Ektachrome 100",
+        "date": "August 2019",
+        "orientation": "portrait",
+        "location": "Atlanta, GA"
     },
     {
-        src: m645s_portra160_stlzoo_butterfly,
-        width: 4,
-        height: 3
+        "src": cltrixcars,
+        "name": "cltrixcars",
+        "camera": "Leitz-Minolta CL | Nokton Classic 40mm | Kodak Tri-X 400",
+        "date": "June 2019",
+        "orientation": "portrait",
+        "location": "Birmingham, AL"
     },
     {
-        src: cl_trix_bhamcarsandcoffee,
-        width: 2,
-        height: 3
+        "src": fe2sweetwater,
+        "name": "fe2sweetwater",
+        "camera": "Nikon FE2 | 50mm f/1.8 Series E | Ilford HP5",
+        "date": "December 2019",
+        "orientation": "portrait",
+        "location": "Atlanta, GA"
     },
     {
-        src: av1_vista_sanvigilio,
-        width: 3,
-        height: 2
+        "src": fe2trixmercstadium,
+        "name": "fe2trixmercstadium",
+        "camera": "Nikon FE2 | 50mm f/1.8 Series E | Kodak Tri-X 400",
+        "date": "September 2019",
+        "orientation": "square",
+        "location": "Atlanta, GA"
     },
     {
-        src: m645s_delta3200_rites,
-        width: 3,
-        height: 4
+        "src": hasselbladektarzeke,
+        "name": "hasselbladektarzeke",
+        "camera": "Hasselblad 500C | 80mm f/2.8 Planar | Kodak Ektar 100",
+        "date": "August 2020",
+        "orientation": "square",
+        "location": "Birmingham, AL"
     },
     {
-        src: mat124g_hp5_xtown_skylight,
-        width: 1,
-        height: 1
+        "src": hasselbladchanningvalley,
+        "name": "hasselbladchanningvalley",
+        "camera": "Hasselblad 500C | 80mm f/2.8 Planar | Kentmere 100",
+        "date": "June 2020",
+        "orientation": "square",
+        "location": "Atlanta, GA"
     },
     {
-        src: cl_ektachrome_pool,
-        width: 2,
-        height: 3
+        "src": m645sstlzoo,
+        "name": "m645sstlzoo",
+        "camera": "Mamiya M645 Super | 80mm f/2.8N | Kodak Portra 160",
+        "date": "March 2018",
+        "orientation": "landscape",
+        "location": "St. Louis, MO"
     },
     {
-        src: av1_panf_rhodes,
-        width: 3,
-        height: 2
+        "src": mat124ghp5xtown,
+        "name": "mat124ghp5xtown",
+        "camera": "Yashica Mat-124G | Ilford HP5",
+        "date": "August 2017",
+        "orientation": "square",
+        "location": "Memphis, TN"
     },
     {
-        src: m645s_portra160_stlzoo_sculpture,
-        width: 4,
-        height: 3
+        "src": olympus35rctmaxbeale,
+        "name": "olympus35rctmaxbeale",
+        "camera": "Olympus 35RC | Kodak T-Max 400",
+        "date": "February 2018",
+        "orientation": "portrait",
+        "location": "Memphis, TN"
     },
     {
-        src: ae1_hp5_overton,
-        width: 3,
-        height: 2
+        "src": zorkivistaoslo,
+        "name": "zorkivistaoslo",
+        "camera": "Zorki-4k | ЮПИТЕР-8 | Agfa Vista 200",
+        "date": "September 2016",
+        "orientation": "portrait",
+        "location": "Oslo, Norway"
     },
-    {
-        src: zorki_vista_oslo,
-        width: 2,
-        height: 3
-    },
-    {
-        src: cl_fomapan_masonmill,
-        width: 3,
-        height: 2
-    },
-    {
-        src: av1_vista_venice,
-        width: 2,
-        height: 3
-    },
-
-    {
-        src: cl_tmax_atlhistcenter,
-        width: 2,
-        height: 3
-    },
-    {
-        src: olympus35rc_gold_chattanooga,
-        width: 2,
-        height: 3
-    }
 ]
-
-  function export photos
