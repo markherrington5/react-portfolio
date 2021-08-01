@@ -1,7 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Col, Container, Row } from "react-bootstrap";
 import LgName from "../components/LgName.js";
 import LinkBtns from "../components/LinkBtns.js";
 import ContactInfo from "../components/contactInfo.js";
@@ -9,7 +7,7 @@ import "../styles/homepage.css";
 import portrait from "../images/portrait.jpg";
 import resume from "../resume.pdf";
 
-const homepage = () => (
+const Homepage = () => (
   <div>
     <LgName />
     <Container>
@@ -17,7 +15,9 @@ const homepage = () => (
         <Col xs={12} md={6}>
           <h3 id="greeting">Hi! I'm Mark Herrington.</h3>
           <p id="intro">
-            I'm a React developer. I have a history degree from Rhodes College and a web development certification from Georgia Tech. I currently reside in Atlanta and work in the Office of Information Technology at Emory University.
+            I'm a new developer excited about his recent entrance into the world of coding.
+            I have a history degree from Rhodes College and a web development certification from Georgia Tech. I am currently working
+            as a web developer at Emory University.
           </p>
         </Col>
         <Col sm={6}>
@@ -64,4 +64,4 @@ const homepage = () => (
   </div>
 );
 
-export default homepage;
+export default Homepage;
