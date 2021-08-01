@@ -27,6 +27,7 @@ function Photography() {
               </React.Fragment>
             )
           }
+          else return <p>oops</p>
         })}
       </Container>
     </React.Fragment>
