@@ -17,13 +17,15 @@ h2 {
 #greeting {
   font-weight: 700;
   font-size: 2em;
+  text-align: right;
 }
 
 #intro {
   float: left;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.95em;
   margin-bottom: 25px;
+  text-align: right;
 }
 
 #portrait {

@@ -1,12 +1,9 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Col, Container, Row } from "react-bootstrap";
 import "../styles/coding.css";
 import HomeBtn from "../components/homeBtn.js";
 import SubHeader from "../components/subHeader.js";
 import CodingBlock from "../components/codingBlock.js";
-import ContactInfo from "../components/contactInfo.js";
 import InglesThumb from "../images/projectThumbs/inglesThumb.jpg";
 import SmartifyThumb from "../images/projectThumbs/smartifyThumb.jpg";
 import FinderThumb from "../images/projectThumbs/employeeFinderThumb.jpg";
@@ -60,7 +57,6 @@ const coding = () => (
         </Col>
       </Row>
     </Container>
-    <ContactInfo />
   </div>
 );
 
